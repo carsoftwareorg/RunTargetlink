@@ -1,14 +1,21 @@
-name: 'matlab-example'
-description: 'example'
+name: 'run Targetlink build api'
+description: 'use targetlink code generation, build Sil , build Pil api'
 inputs:
-  example_string: 
-    description: "example string"
+  build_option: 
+    description: "build option for sil, pil, code generation"
     required: true
-    default: "example"
-  example_num: 
-    description: "example number"
+    default: "generatecode"
+  modelname: 
+    description: "model name for the code generation"
     required: true
-    default: "10"
+  project_path:
+    description: "matlab projectfile path, which is used for the project initialization"
+    required: true
+    default: "./"
+  target_dir:
+    description: "target folder, which the generated artifacts should stored"
+    required: true
+    default: "./_gen"
 runs:
   using: node12
   main: dist/index.js

@@ -9,8 +9,8 @@ export interface Options {
 
 export function create(): Options {
     return {
-        strMxamDir: core.getInput("build_option"),
-        strArtifact: core.getInput("modelname"),
+        strBuildOption: core.getInput("build_option"),
+        strModelName: core.getInput("modelname"),
         strProjectPath: core.getInput("project_path"),
         strTargetDirPath: core.getInput("target_dir"),
     };
