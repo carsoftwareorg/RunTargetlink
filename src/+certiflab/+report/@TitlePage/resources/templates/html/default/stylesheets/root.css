@@ -1,0 +1,63 @@
+/* 
+    text-align:     defines the HAlign format.
+                    The supported values are left, right and center 
+                
+    font-weight:    defines the Bold format.
+                    The supported values are normal and bold
+                    
+    font-style:     defines the Italic format.
+                    The supported values are normal and italic    
+
+    For units use pt without any whitespace between the number and the unit.
+
+ */
+
+p.TitlePageTitle {
+    margin-top: 5pt;
+    font-family: monospace;
+    font-size: 24pt;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center; 
+    margin-bottom: 5pt;
+    background: #008;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+p.TitlePageSubtitle {
+    margin-top: 5pt;
+    font-family: monospace;
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5pt;
+    color: #BFBFBF;
+}
+
+p.TitlePageAuthor {
+    margin-top: 11pt;
+    font-family: monospace;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: left; 
+}
+
+p.TitlePageImage {
+    text-align: center;
+    margin-bottom: 10pt;
+}
+
+p.TitlePagePublisher {
+    margin-top: 10pt;
+    font-family: monospace;
+    font-size: 12pt;
+    text-align: left; 
+}
+
+p.TitlePagePubDate {
+    margin-top: 10pt;
+    font-family: monospace;
+    font-size: 12pt;
+    text-align: left; 
+}

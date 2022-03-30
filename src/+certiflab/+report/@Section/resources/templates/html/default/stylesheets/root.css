@@ -1,0 +1,75 @@
+h1.SectionTitle1, p.SectionTitle1 {
+    font-family: Calibri;
+    color: rgb(54,95,145);
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 24pt;
+    margin-bottom: 0pt;
+    white-space: pre;
+    border-bottom:2px solid rgb(54,95,145);
+}
+
+h2.SectionTitle2, p.SectionTitle2 {
+    font-family: Calibri;
+    color: rgb(79,129,189);
+    font-size: 13pt;
+    font-weight: bold;
+    margin-top: 10pt;
+    margin-bottom: 0pt;
+    white-space: pre;
+}
+
+h3.SectionTitle3, p.SectionTitle3 {
+    font-family: Calibri;
+    color: rgb(79,129,189);
+    font-size: 11pt;
+    font-weight: bold;
+    margin-top: 10pt;
+    margin-bottom: 0pt;
+    white-space: pre;
+}
+
+h4.SectionTitle4, p.SectionTitle4 {
+    font-family: Calibri;
+    color: rgb(79,129,189);
+    font-size: 11pt;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10pt;
+    margin-bottom: 0pt;
+    white-space: pre;
+}
+
+h5.SectionTitle5, p.SectionTitle5 {
+    font-family: Calibri, 'Noto Sans', 'Noto Sans CJK JP', 'Noto Sans CJK SC', 'Noto Sans CJK KR';
+    color: rgb(36,63,96);
+    font-size: 11pt;
+    margin-top: 10pt;
+    margin-bottom: 0pt;
+    white-space: pre;
+}
+
+h6.SectionTitle6, p.SectionTitle6 {
+    font-family: Calibri, 'Noto Sans', 'Noto Sans CJK JP', 'Noto Sans CJK SC', 'Noto Sans CJK KR';
+    color: rgb(36,63,96);
+    font-size: 11pt;
+    font-style: italic;
+    margin-top: 10pt;
+    margin-bottom: 0pt;
+    white-space: pre;
+}
+
+span.an_sect1:before {content: counter(sect1);}
+
+span.an_sect2:before {content: counter(sect2);}
+
+span.an_sect3:before {content: counter(sect3);}
+
+span.an_sect4:before {content: counter(sect4);}
+
+span.an_sect5:before {content: counter(sect5);}
+
+span.an_sect6:before {content: counter(sect6);}
+
+

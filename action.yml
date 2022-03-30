@@ -1,0 +1,14 @@
+name: 'matlab-example'
+description: 'example'
+inputs:
+  example_string: 
+    description: "example string"
+    required: true
+    default: "example"
+  example_num: 
+    description: "example number"
+    required: true
+    default: "10"
+runs:
+  using: node12
+  main: dist/index.js
