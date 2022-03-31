@@ -6,14 +6,14 @@ inputs:
     required: true
     default: "generatecode"
   modelname: 
-    description: "model name for the code generation"
+    description: "simulink model name for the code generation"
     required: true
   project_path:
     description: "matlab projectfile path, which is used for the project initialization"
     required: true
     default: "./"
-  target_dir:
-    description: "target folder, which the generated artifacts should stored"
+  result_dir:
+    description: "result folder, which the generated artifacts should stored, please see your project cm structure!"
     required: true
     default: "./_gen"
 runs:
