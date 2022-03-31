@@ -12,7 +12,7 @@ inputs:
     description: "matlab projectfile path, which is used for the project initialization"
     required: true
     default: "./"
-  result_dir:
+  target_dir:
     description: "result folder, which the generated artifacts should stored, please see your project cm structure!"
     required: true
     default: "./_gen"
