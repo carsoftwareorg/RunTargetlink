@@ -27,8 +27,8 @@ node_modules
 bower_components
 
 # Editors
-.idea
 *.iml
+.idea
 
 # OS metadata
 .DS_Store
