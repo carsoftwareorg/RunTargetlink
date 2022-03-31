@@ -88,6 +88,11 @@ if bSuccess
 else
     disp('action failed')
 end
+%% Save
+if strcmp(strBuildOption,'generatecode') 
+  save_system(strModelName);
+  dsdd('Save');
+end
 
 %% Cleanup
 if bOpenedModel
