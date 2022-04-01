@@ -89,6 +89,12 @@ else
     disp('action failed')
 end
 
+% save dd for following compile sil step
+if bSuccess && bGenerateCode
+  save_system(strModelName);
+  dsdd('Save');
+end
+
 %% Cleanup
 if bOpenedModel
     bdclose(strModelName);
